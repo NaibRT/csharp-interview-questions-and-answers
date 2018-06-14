@@ -28,7 +28,7 @@ Top 100 C# Interview Questions
 25. What is the difference between “out” and “ref” parameters in C#?
 26. Explain Jagged Arrays in C#?
 27. Can we use “this” inside a static method in C#?
-28. What are value types in C#?
+28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir? 
 30. What are reference types in C#?
 31. Can we override private virtual method in C#?
 32. Explain access modifier – “protected internal” in C#?
