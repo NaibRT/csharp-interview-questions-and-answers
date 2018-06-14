@@ -1,5 +1,6 @@
-# Top-100-csharp-interview-question
-Top 100 C# Interview Questions
+# C# Müsahibə sualları və cavabları
+
+ C# Müsahibə sualları və cavabları
 
 1. C# nədir? 
 > Programlama Dili
