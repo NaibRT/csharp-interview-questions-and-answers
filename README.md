@@ -4,7 +4,7 @@ Top 100 C# Interview Questions
 1. C# nədir? 
 > Programlama Dili
 2. Explain the features of C#?
-3. List some of the advantages of C#?
+3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
 4. What are IDE’s provided by Microsoft for C# development?
 5. Explain the types of comments in C#?
 6. Explain sealed class in C#?
