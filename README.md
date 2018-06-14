@@ -39,3 +39,6 @@ Top 100 C# Interview Questions
 36. What is the difference between “StringBuilder” and “String” in C#?
 37. What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?
 38. Can you store multiple data types in an array?
+39. How we can sort the array elements in descending order in C#?
+40. Explain circular reference in C#?
+41. List out some of the exceptions in C#?
