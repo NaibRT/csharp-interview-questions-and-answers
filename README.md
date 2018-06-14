@@ -10,7 +10,7 @@ Top 100 C# Interview Questions
 6. Explain sealed class in C#?
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
-9. Why to use “using” in C#?
+9. C# nə üçün istifadə olunur?
 10. Explain namespaces in C#?
 11. Why to use keyword “const” in C#? Give an example.
 12. What is the difference between “constant” and “readonly” variables in C#?
