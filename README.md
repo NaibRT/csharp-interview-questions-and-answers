@@ -2,9 +2,7 @@
 Top 100 C# Interview Questions
 
 1. C# nədir? 
-   
-   Programlama Dili
-   
+   - Programlama Dili
 2. Explain the features of C#?
 3. List some of the advantages of C#?
 4. What are IDE’s provided by Microsoft for C# development?
