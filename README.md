@@ -35,6 +35,6 @@ Top 100 C# Interview Questions
 32. Explain access modifier – “protected internal” in C#?
 33. In try block if we add return statement whether finally block is executed in C#?
 34. What you mean by inner exception in C#?
-35. Explain String Builder class in C#?
+35. C# da String Builder klasın izah edin.
 36. What is the difference between “StringBuilder” and “String” in C#?
 37. What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?
