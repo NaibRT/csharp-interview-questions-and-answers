@@ -1,7 +1,5 @@
 # C# Müsahibə sualları və cavabları
 
- C# Müsahibə sualları və cavabları
-
 1. C# nədir? 
 > Programlama Dili
 2. Explain the features of C#?
