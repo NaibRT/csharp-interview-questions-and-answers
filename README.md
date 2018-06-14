@@ -38,3 +38,4 @@ Top 100 C# Interview Questions
 35. C# da String Builder klasın izah edin.
 36. What is the difference between “StringBuilder” and “String” in C#?
 37. What is the difference between methods – “System.Array.Clone()” and “System.Array.CopyTo()” in C#?
+38. Can you store multiple data types in an array?
