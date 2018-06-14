@@ -12,7 +12,7 @@ Top 100 C# Interview Questions
 8. List out the differences between Array and ArrayList in C#?
 9. C# da "using" nə üçün istifadə olunur
 10. Explain namespaces in C#?
-11. Why to use keyword “const” in C#? Give an example.
+11. Nəyə görə "const" keyvordu istifadə olunur? Misal gətirin.
 12. What is the difference between “constant” and “readonly” variables in C#?
 13. Explain “static” keyword in C#?
 14. What is the difference between “dispose” and “finalize” variables in C#?
