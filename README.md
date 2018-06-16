@@ -11,12 +11,65 @@
 
 
 
-2. Explain the features of C#?
-> Öyrənmək çox asandır
+2. C# - ın özəlliklərini İzah Edin?
+
+> 1.C# - ı İstədiyiniz Editor-da Yaza Bilərsiniz
+  2.C# - ı Açıq Qaynaqli Dildir
+  3.C#  - Vindovs Mac ve Linux - da İşləyir
+  4.C# - Vindovs Müştəri Tətbiqləri Vindovs Mağaza Tətbiqləri İOS Tətbiqləri  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunurş
+  5.Bütün IDE'leri ve editorlar-ı dəstəkləyirş
+  6.Fiks Etme Yenidən Düzənləmək və Kod Yaratmaq Aletleri(cw+tab+tab)destekleyir.
+  7.C# - 7 -- tuplesleri  Rekord  ve Pattern - leri Destekleryir
+  8.C# - gəncdir ve inkişaf edir.
+  9.C# - Obyekt Yönümlüdür
+  10.C# - sade-dir.
+  11.C# - strukturlu programlama dilidir.
+  12.C# - Type safe(güvenli yazı)
+  13.C# - Birlikte Calisabilirklik(Interoperability)
+  
+  
+ 
 3. C#-ın üstünlüklərindən ən vaciblərini sadalayın.
+
 4. What are IDE’s provided by Microsoft for C# development?
-5. Explain the types of comments in C#?
-6. Explain sealed class in C#?
+
+> Visual Studio 2017
+
+5. C# - daki Kamentariya Tiplərini İzah Edin
+
+> c#-da Kamentariyalar Bizə Kod Hissəciylərini Başa Düçməyimizə Kömək Edir. Kamentariyalar Compiler Terefinden Tamamən Yox Sayilir
+
+C#-da 3 Kamentariya Tipi Vardırş
+
+1.Single Line Comments(Tək Sətir Kamentlər)
+2.Multi Line Coments(Çox Sətirli Kamentlər)
+3.XML Comments(XML Kamentlər)
+
+1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
+   
+       int a = 5  // 5 və 7 - ni Toplayır
+   
+   Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
+   
+
+2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
+
+
+3)XML - Bilmirəm Hələki
+
+Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
+
+1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
+2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
+
+   
+
+6. C# - daki Sealed Klasını İzah Edin?
+
+> Sealed Klass Obyekt Yönümlü Programlamanın İnheritance(miras) Xüsusiyyətini Ləğv Edir. Sealed Klasin İxtira Olunmasinin Səbəbi Odur ki Həmin Klasin Genişləndirilməyə Ehtiyyacinın Olmadığını deyirikk. Bu Klass İnheritance Ala Bilməz. C# - da "sealed" keywordu Klasın Sealed Klas Olduğunu Müəyyən Edir. Əgər Sealed Tətin Olunmuş Klas-dan İnheritance Almaqa Cehd Etsək Compile Error Verəcək.
+ 
+
+
 7. Give an example of using sealed class in C#?
 8. List out the differences between Array and ArrayList in C#?
 9. C# da "using" nə üçün istifadə olunur
