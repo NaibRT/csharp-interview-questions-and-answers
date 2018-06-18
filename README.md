@@ -14,18 +14,18 @@
 2. C# - ın özəlliklərini İzah Edin?
 
 > 1.C# - ı İstədiyiniz Editor-da Yaza Bilərsiniz
-  2.C# - ı Açıq Qaynaqli Dildir
-  3.C#  - Vindovs Mac ve Linux - da İşləyir
-  4.C# - Vindovs Müştəri Tətbiqləri Vindovs Mağaza Tətbiqləri İOS Tətbiqləri  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunurş
-  5.Bütün IDE'leri ve editorlar-ı dəstəkləyirş
-  6.Fiks Etme Yenidən Düzənləmək və Kod Yaratmaq Aletleri(cw+tab+tab)destekleyir.
-  7.C# - 7 -- tuplesleri  Rekord  ve Pattern - leri Destekleryir
-  8.C# - gəncdir ve inkişaf edir.
-  9.C# - Obyekt Yönümlüdür
-  10.C# - sade-dir.
-  11.C# - strukturlu programlama dilidir.
-  12.C# - Type safe(güvenli yazı)
-  13.C# - Birlikte Calisabilirklik(Interoperability)
+>  2.C# - ı Açıq Qaynaqli Dildir
+>  3.C#  - Vindovs Mac ve Linux - da İşləyir
+>  4.C# - Vindovs Müştəri Tətbiqləri Vindovs Mağaza Tətbiqləri İOS Tətbiqləri  Android Tətbiqləri və Həmçinin (backend  framevork           library) - lar Yaratmaq Üçün İstifade Olunurş
+>  5.Bütün IDE'leri ve editorlar-ı dəstəkləyirş
+>  6.Fiks Etme Yenidən Düzənləmək və Kod Yaratmaq Aletleri(cw+tab+tab)destekleyir.
+>  7.C# - 7 -- tuplesleri  Rekord  ve Pattern - leri Destekleryir
+>  8.C# - gəncdir ve inkişaf edir.
+>  9.C# - Obyekt Yönümlüdür
+>  10.C# - sade-dir.
+>  11.C# - strukturlu programlama dilidir.
+>  12.C# - Type safe(güvenli yazı)
+>  13.C# - Birlikte Calisabilirklik(Interoperability)
   
   
  
@@ -45,22 +45,22 @@
  2.Multi Line Coments(Çox Sətirli Kamentlər)
  3.XML Comments(XML Kamentlər)
 
- 1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
+ > 1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
    
        int a = 5  // 5 və 7 - ni Toplayır
    
- Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
+> Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
    
 
-  2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
+ > 2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
 
 
-  3)XML - Bilmirəm Hələki
+  > 3)XML - Bilmirəm Hələki
 
-  Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
+  > Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
 
-  1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
-  2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
+ > 1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
+ > 2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
 
    
 
@@ -75,6 +75,13 @@
 9. C# da "using" nə üçün istifadə olunur
 10. Explain namespaces in C#?
 11. Why to use keyword “const” in C#? Give an example.
+
+> Fərz edək ki Bir dəyişənimiz var  və biz bu dəyişənimizin dəyərinin heç bir yerdə dəyişilməməsini sabit qalmasını istəyə bilərik.Bu     zaman Bize (const) - keyvordu komək edir. Const keyvordunun Qaydaları.
+> 1. Const keyüordu local Dəyişənlərə və Filed-lərə Təyin Edilə Bilər.
+> 2. Const keyüordu yalnız primitiv dəyərlərə təyin edilə bilər(int double).
+> 3. Constant təyin etdiyimiz (field ve dəyişənlərə) declaration anında dəyər təyin etməliyik.
+> 4. Constant dəyişənlər (const) - keyüordu ilə təyin edilir.
+
 12. What is the difference between “constant” and “readonly” variables in C#?
 13. Explain “static” keyword in C#?
 14. What is the difference between “dispose” and “finalize” variables in C#?
@@ -155,9 +162,176 @@
 90. What is Polymorphism in C# ?
 91. Explain the use of Virtual Keyword in C# ?
 92. What is overriding in c# ?
-93. What is Method Hiding in C# ?
+
+> Override miras yolu ilə təməl sinifin referansını istifadə edərək fərqli siniflərə aid metodları çağırmağımıza icazə verən bir xüsusiyyətdir.C# - bizə (override) əməliyyatını həyata keçirmək üçün 2 keyüord verir. (virtual və override).
+Bir Metod yalnız (virtual) keyvordu ilə təyin olundugu halda biz miras alınmış sinifdə onu (override) - edə bilərik.(override) base clasda olan virtual metodu (override) - edir. Override Ozəlliyi Programçılara Təməl Sinifdə (virtual) memberi miras almış sinifdə yenidən tətbiq etməyə icazə verir. Override miras alan sinifdə dəyişilməyə ehtiyyacı olan (metod property indexer və ya event) - lər ilə işlənə bilər. override xüsusiyyəti C# - da polymoprhism qavramını tətbiq etmək üçün dizayn edilmişdir.
+
+93. What is Method Hiding in C# 
+
+> Derived Sinif İçərisində təməl(base) Sinifə aid bir metodu (override) etmeden təkrar Tanimlasanız base(temel) sinifdəki halı qorunacaqdır. Bu Hala Metod Hiding Deyilir.
+
+    class Product
+
+    {
+
+        public int İd { get; set; }
+
+        public string Name { get; set; }
+
+ 
+
+        public void Test()
+
+        {
+
+            Console.WriteLine("Product Sinifinin Memberiyəm");
+
+        }
+
+    }
+    
+    
+    
+    
+    class Book : Product
+
+    {
+
+        public string Author { get; set; }
+
+ 
+
+        public void Test()
+
+        {
+
+            Console.WriteLine("Kitab Sinfinin Memberiyəm");
+
+        }
+
+    }
+
+
+> Burada Book Sinifinde Olan Test() Metodu  Temel Product Sinifinde Olan Test() Metodu İle Eynidir Buna Gore  Base Sinifdə Olan Test()     Metodu  Gizlenir ve Book - da Olan Metod İşləyir ama Compiler Bizə Xeberdarlıq Verir. Buna Görədə Metod hiding Eederek Bu xeberdarlıqı   Aradan Qaldırırıq. nev keyvordu istifade ederek yoxlayaq.
+ 
+      
+    class Book : Product
+
+    {
+
+        public string Author { get; set; }
+
+ 
+
+        //new public void Test() şeklinde de yazabiliriz.
+
+        public new void Test()
+
+        {
+
+            Console.WriteLine("Kitab Sinifinin Memberiyem");
+
+        }
+
+    }
+    
+Bele Daha Düzgündür Artıq Base(təməl) Sinifdəki Metod Gizləndi. 
+
 94. What is Abstract Class in C#?
+
+> Abstract Siniflər .NET Tərəfindən təmin edilən təməl davranışlardan biridir. Ümumi olaraq yalnız təməl Sinifləri təmsil edən və hər hansı birinin bu Siniflərdən Obyekt yaratmasını istəmədiyimiz siniflər yaratmaq istəyə bilərsiz. c# - da (abstract) istifade ederek Astract Sinifləri Tətbiq edə Bilərik. Abstrackt sinifin mənası bu sinif - də obyekt yaradıla bilməz ama miras alına bilər.
+
+    abstract class absClass
+    {
+     
+    }
+
+> Abstract Sinif (abstract) olan və (abstract) olmayan metodlar saxlaya bilər. Abstract memberlərin (abstract) sinif içərisində heç bir tətbiqi olmur ama ondan miras alan sinifə bu özəlli təmin edilir.
+
+
+         abstract class absClass
+         {
+             public abstract void absMethod();
+         }
+
+> Dediyimiz kimi Abstract Siniflərin İçərisində abstract olmayan memberlər - də ola bilər.
+
+    public void Show()
+    {
+       
+    }
+
+> Abstract metod və Abstract Sinif-dən başqa heç bir yerdə təyin edilə bilməzlər. Abstract metodlar derive olundğu sinif-də (override) olunmalıdırlar. Abstract metodların (body) - si Olmur.
+
+> Abstract- da Bəzi Qaydalar
+
+> 1.Abstract Sinif (selaed) - olaraq təyin edilə bilməz
+> 2.Abstract metodlar yalnız abstract sinifdə ola bilər
+> 3. Abstract metodlar private ola bilməz
+> 4.Abstract Sinifin (Access Modifieri) həm Abstract Sinifdə həmdə ondan miras almış sinifdədə eyni olmalıdır
+> 5.Abstract metodun (virtual) keyvordu olmur. Çünki Abstract metod onsuzda virtual olur.
+
 95. What is Sealed Classes in c# ?
 96. What is an Interface in C# ?
 97. What is a Constructor in C# ?
+
+> Qurucular Xüsusi Metodlardır və Sinifdən örnəy(abyekt) yaratdıgımız anda işə düşürlər.Qurucuların Əsas Məqsədi Sinifin Örnəyi Yaranan Anda Sinifdə Olan (private) gizli field-lari Başlatmaqdır. Əgər Biz Özümüz Qurucu Metod Yazmasaq (Compiler) Avtomatik Olaraq Default Qurucu Metodu İşə Salacaq. Default(varsayılan) qurucular Sinfidəki (numerik) field-lərə  zero(0) (string və object) - filed-lərə isə (null) - dəyəri Təyin Edir.  Qurucularda Bəzi Vacib Nöqtələr Vardır.
+
+> 1.Sinifin Birdən Çox Qurucu Metodu Ola Bilər
+> 2.Bir Qurucu Metodun Hansısa (return) Tipi Yoxdur (void) - də Daxil Olmaqla. Çünkü Obyekt return Edir.
+> 3.Statik Qurucular Parameter Qəbul Edə Bilməzlər.
+> 4.Bir Sinif İçərisində Yalnız Bir Statik Qurucu Ola Bilər.
+
+> Qurucular 5 Tipə Bölünür.
+
+> 1.Default(varsayılan) Qurucular
+> 2.Parametreli Qurucular
+> 3.Copy Qurucular
+> 4.Statik Qurucular
+> 5.Private Qurucular
+
+> 1.1)Hər Hansı Bir Parametresi Olmayan Qurucular varsayılan(defult) qurucular adlanır.bu cür qurucuların parametresi olmur.Bunun mənfi cəhəti odur ki default(varsayılan) qurucu hər obyekt yarananda eyni dəyərlər Təyin Edir.
+Hər Obyekt Yaradanda Ferqli Deyerler Teyin Etmek Mümkün Deyil. Varsayılan Qurucu Aşagıdakı Dəyərləri Təyin Edir
+
+ 1.Bütün Numerik Filedlər-ə (0) - ı
+ 2.Bütün (string ve object) dəyərlərə (null) - u
+ 
+> 2.2)Ən az Bir Parametresi Olan Qurucuya Parametreli Qurucu Deyilir. Parametreli Qurucunun Müsbət Cəhəti Odur ki Hər obyekt yaradanda fərqli dəyərlər Təyin Ede Bilərsiz.
+
+    public class Employee 
+    {
+       public int a,b;
+       
+       public Employee(int x , int y)
+       {
+         this.a = x;
+         this.b = y;
+       }
+    }
+    
+> 3.3)Başqa bir obyektden dəyişənləri kopyalayaraq bir obyekt yaradan qurucuya (copy) qurucu deyilir.(Copy) qurucunun Əsas Məqsədi         Mövcud Olan Obektin Dəyərləri ilə Yeni Obyekt Yaratmaqdır.  
+  
+  > 1.Statik Qurucuların Parameteri və Access Modifieri Olmur
+  > 2.Statik qurucu işə düşdüyündə istifadeci onu idarə edə bilməz
+  
+  
+  
+  
+
+   
+     public class Employee 
+    {
+       public string Name
+       public int Age
+       
+       public Employee(Employee emp)
+       {
+         this.Name = emp.Name;
+         this.Age = emp.Age;
+       }
+    }
+    
+    
+> 4.4)Qurucu Statik olaraq təyin olunarsa  Bütün Obyektlər Üçün Bir dəfə Çağırılır və Sinifin ilk Obyekti Yaradilan Anda işə düşür         Statik Bir Qurucu Sinifin Statik Olan Üzvlərini Başlatmaq və Sadəcə Bir dəfə run olunacaq kodu İşə salmaq üçün İstifade Olunur.
+
 98. What is a Destructor in C# ? 
