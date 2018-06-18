@@ -1,4 +1,4 @@
-# C# Müsahibə sualları və cavabları
+﻿# C# Müsahibə sualları və cavabları
 
 1. C# nədir?
 >C# Microsoft Corporation tərəfindən .Net platformu üçün yaradilan multi-paradigmali programlama dilidir.Bununla Windows Client Aplication,Xml Web Services,Client-Server Aplication və.s yazmaq mumkundur.
@@ -15,18 +15,23 @@
 7. C#-da sealed clasin istifadəsinə dair misal gostərin?
 >
 8. C#-da Array və ArrayList arasindaki fərqlər.
->Array strong tipdir.Yeni deqiq bir tipdə data özündə tuta bilər amma Arraylistdə istənilən tipdə data tutmaq mümkündür.
-Array təyin edərkə tutacaqi elementlərin sayini əvvəlcədən müəyyən etmək lazımdır amma Arraylistdə özü genişləyə bilir.
-Arrayin tipi əvvəlcədən müəyyən olunacaqi ücün onu cast etməyə ehtiyac yoxdur ancaq Arraylistdə cast etmək lazımdır.
+>Array strong tipdir.Yeni dəqiq bir tipdə data özündə tuta bilər amma Arraylistdə istənilən tipdə data tutmaq mümkündür.
+Array təyin edərkə tutacaqi elementlərin sayını əvvəlcədən müəyyən etmək lazımdır amma Arraylistdə özü genişləyə bilir.
+Arrayin tipi əvvəlcədən müəyyən olunacağı üçün onu cast etməyə ehtiyac yoxdur ancaq Arraylistdə cast etmək lazımdır.
 
 9. C# da "using" nə üçün istifadə olunur?
->
-10. Explain namespaces in C#?
->
+>C# da using keywordunun istifadəsi 2 cürdür.Using Directive və using Statement.Using Directive hər hansı namespace-i yazdığımız programa daxil edib onun içindəki claslardan istifadə etmə üçün tətbiq olunur.
+Using statement isə Garbage Collector əvvəl istifadə olunan clasi İDisposable interfacesinin Dispose methodu ilə silinməsi üçün istifadə olunur.
+10. C#-da Namespaceni izah edin.
+>Namespace hər şeydən əvvəl bizə hierarchical program yazmağımıza kömək edir.Bununla yanaşı C# da standart Library olmadigindan yazdıgımız bütün claslar və methodlar bir namespace altında toplanir və
+sonra həmin namespaceni "using" keywordu vasitəsilə başqa programlarda istifadə etmək mümkündür.
 11. Nəyə görə "const" keyvordu istifadə olunur? Misal gətirin.
->
-12. What is the difference between “constant” and “readonly” variables in C#?
->
+>Program yazarkən dəyişməyəcək və hər zaman sabit qalacaq olan dəyişənlərimizi "const" keywordu ilə yaziriq.Həmin dəyər run time da dəyişmək mümkün olmur.
+
+12. Constant və Readonly arasindaki fərq nədir?
+>Constant static ilə declare oluna bilməz çünki defult olaraq statikdir amma Readonly static kimi təyin oluna bilər.
+Constant compile time da müəyyən olunur ancaq Readonly run time da  müəyyən olunur.
+Constant declear olundugu anda dəyər təyin olunmalıdır ancaq Readonly həm təyin olundugu anda həm də canstructor methodun içində sonradan təyin oluna bilər.
 13. Explain “static” keyword in C#?
 >
 14. What is the difference between “dispose” and “finalize” variables in C#?
