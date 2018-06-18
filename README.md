@@ -39,7 +39,7 @@
 
 > c#-da Kamentariyalar Bizə Kod Hissəciylərini Başa Düçməyimizə Kömək Edir. Kamentariyalar Compiler Terefinden Tamamən Yox Sayilir
 
-C#-da 3 Kamentariya Tipi Vardırş
+> C#-da 3 Kamentariya Tipi Vardırş
 
 1.Single Line Comments(Tək Sətir Kamentlər)
 2.Multi Line Coments(Çox Sətirli Kamentlər)
