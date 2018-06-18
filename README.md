@@ -272,6 +272,9 @@ Bele Daha Düzgündür Artıq Base(təməl) Sinifdəki Metod Gizləndi.
 > 5.Abstract metodun (virtual) keyvordu olmur. Çünki Abstract metod onsuzda virtual olur.
 
 95. What is Sealed Classes in c# ?
+
+> Sealed Siniflər Obyekt Yönümlü Programlaşdırmanın inheritance(miras) xüsusiyyətini ləğv eiliyir. Sealed Sinifinin İxtira olunmasının məqsədi odur ki biz bu sinifə deyirkki sənin genişləndirlməyə Ehtiyyacın Yoxdur. Sən miras ala Bilməzsən
+
 96. What is an Interface in C# ?
 97. What is a Constructor in C# ?
 
