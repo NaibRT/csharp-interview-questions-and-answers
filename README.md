@@ -41,26 +41,26 @@
 
 > C#-da 3 Kamentariya Tipi Vardırş
 
-1.Single Line Comments(Tək Sətir Kamentlər)
-2.Multi Line Coments(Çox Sətirli Kamentlər)
-3.XML Comments(XML Kamentlər)
+>1.Single Line Comments(Tək Sətir Kamentlər)
+ 2.Multi Line Coments(Çox Sətirli Kamentlər)
+ 3.XML Comments(XML Kamentlər)
 
-1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
+ 1) Tək Sətirlər Kamentlər Cüt Slaş ilə Başlayır , Compiler " // " - dan Sonra Sətirin Altina Düçənə Qədər Yazilan Hər Şeyi Yox Sayır 
    
        int a = 5  // 5 və 7 - ni Toplayır
    
-   Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
+ Tək Sətirli Kamentariyalar Ayrı Bir Sətirdə və ya Kodlarla Eyni Sətirdə Yazıla Bilər  Ama Ayrı Bir Sətirdə Yazmaq Daha Yaxşıdır.
    
 
-2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
+  2) Cox Sətirli Kamnentariyalar " /* " - ilə Başlayır və  " *\ " Bitir. Çox Sətirli Kamentariyalar Birdən Çox Sətirə Yayıla Bilər.
 
 
-3)XML - Bilmirəm Hələki
+  3)XML - Bilmirəm Hələki
 
-Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
+  Kamentariyalar Kod Hissəciklərini izah Etmək Üçün İstifade Olunur Ama Çox İstifade Etmək Olmaz
 
-1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
-2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
+  1)Kamentariyalar Qarışıq Algoritmaları İzah Etmək Üçün İstifade Edilməsi Daha Düzgündür.
+  2)Kamentariyalar Uzun Bir açıqlama Yerinə qısa və kankret olmalıdır.
 
    
 
