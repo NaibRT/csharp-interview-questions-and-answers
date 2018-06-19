@@ -99,3 +99,5 @@
 96. What is an Interface in C# ?
 97. What is a Constructor in C# ?
 98. What is a Destructor in C# ? 
+99. What is CLR in c# ?
+100. What is Garbage Collecter in C#?
