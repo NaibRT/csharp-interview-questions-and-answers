@@ -32,15 +32,16 @@ sonra həmin namespaceni "using" keywordu vasitəsilə başqa programlarda istif
 >Constant static ilə declare oluna bilməz çünki defult olaraq statikdir amma Readonly static kimi təyin oluna bilər.
 Constant compile time da müəyyən olunur ancaq Readonly run time da  müəyyən olunur.
 Constant declear olundugu anda dəyər təyin olunmalıdır ancaq Readonly həm təyin olundugu anda həm də canstructor methodun içində sonradan təyin oluna bilər.
-13. Explain “static” keyword in C#?
->
+13. “static” keywordu C#-da izah edin.
+>Biz hər hansı bir clasın memberlərindən istifadə etmı istəyiriksə onda həmin clasdan obyekt yaratmaq məcburiyyətindəyik.Amma
+əgər həmin memberə instance olmadan access etmə istəyiriksə onda onu static ilə təyin edirik.bu zaman həmin dəyişən və ya method artıq clasın memberi olmur və ona clasın adı ilə müraciət olunur.Bir növ static ilə təyin olunan dəyisən qlobal olur.
 14. What is the difference between “dispose” and “finalize” variables in C#?
 >
 15. How the exception handling is done in C#?
 >
 16. Can we execute multiple catch blocks in C#?
 >
-17. Why to use “finally” block in C#?
+17. C#-da nəyə görə Finally blogundan istifadə olunur?
 >
 18. What is the difference between “finalize” and “finally” methods in C#?
 >
@@ -48,28 +49,35 @@ Constant declear olundugu anda dəyər təyin olunmalıdır ancaq Readonly həm 
 >
 20. Can we have only “try” block without “catch” block in C#?
 >
-21. List out two different types of errors in C#?
->
+21. C#-da error növlərini səralayın.
+>C#-da 3 error növü mövcuddur.Syntax Error,Logic Error,Run-Time Error.
+Syntax Error kod yazarkən qarşımıza cıxır və bu bizim kodumuzun sintaks olaran yanlış yazdigimizi göstərir.
+Logic Error program isləyərkən baş verir və bizim istəmədiyimiz tam fərqli resullarla nəticələnə bilir.
+Run-Time Error program compile olunduqdan ve run olunduqdan sonra görünən xetalardir ki
 22. Do we get error while executing “finally” block in C#?
 >
 23. Mention the assembly name where System namespace lies in C#?
 >
-24. What are the differences between static, public and void in C#?
->
-25. What is the difference between “out” and “ref” parameters in C#?
->
-26. Explain Jagged Arrays in C#?
->
-27. Can we use “this” inside a static method in C#?
->
-28. What are value types in C#? C#-da deyer tipleri nedir ne demekdir?
->
-30. What are reference types in C#?
->
+24. Static, public və void arasındkı fərqləri nədir?
+>Static vasitəsilə yaradılan hər hansı method,dəyisən obyekt yaradilmadan programın istənilən yerində access oluna bilər.
+Public method və ya dəyisən programin hər yerində access oluna bilər obyect yaratmaqla.
+Void isə methodlard istifadə olunur və bu methodlarin heç bir return olmur.
+25. “out” və “ref” parameterləri arasındkı fərq nədir?
+>out parametr olaraq ötürülməzdən əvvəl dəyər təin olunmaya bilər lakin ref -də əvvəlcədən dəyər təyin olnmas program error verəcək.
+26. Jagged Arrayləri izah edin.
+>Jagged arraylər o arraydir ki həmin arrayin elementləri özü də bir arraydir və hər bir element arraylarinin index ölçüləri fərqlidir.
+27. C#-da static methodun icində this istifadə oluna bilər?
+>this istifadə oluna bilməz çünki static method clasın memberi syılmır.
+28. C#-da dəyər tipləri hansılardır?
+>C# -da dəyər tipləri aşagıdakılardır.
+İnt,Uint,Byte,Sbyte,Long,Ulong,Short,Ushort,Decimal,Float,Double,Bool,Char
+30. C#-da referans tiplər hansılardır?
+>C# -da referans tipləri aşagıdakılardır.
+Object,String,Dynamic
 31. Can we override private virtual method in C#?
 >
-32. Explain access modifier – “protected internal” in C#?
->
+32. “protected internal” access modifieri izah edin.
+>protected internal vasitəsi ilə həm eyni assembly daxilində hemdə child class daxilində access olunur.
 33. In try block if we add return statement whether finally block is executed in C#?
 >
 34. What you mean by inner exception in C#?
